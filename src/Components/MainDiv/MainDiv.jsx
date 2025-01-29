@@ -1,16 +1,18 @@
 import React, { useState } from "react";
 import Education from "../Education/Education";
 import ThemeChanger from "../ThemeChanger/ThemeChanger";
-
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithubSquare, FaGitlab } from "react-icons/fa";
 const MainDiv = () => {
   return (
     <div id="colorlib-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
         <div className="flexslider h-full">
           <ul className="">
-            <li className="relative h-[100vh] flex flex-col justify-center px-20">
-              <div className="imgDiv"></div>
-              <div className="absolute flex flex-col gap-6">
+            <li className="relative h-[100vh] flex  justify-center px-20">
+              <div className=" flex flex-col gap-6  justify-center">
                 <h1 className="sm:text-7xl text-3xl font-bold ">
                   Hi! <br className="my-4" />
                   I'm Jackson
@@ -26,6 +28,48 @@ const MainDiv = () => {
                     Download CV <i class="fa-solid fa-download"></i>
                   </a>
                 </p>
+              </div>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
+                <a
+                  href="https://wa.me/+923222243431"
+                  className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition text-2xl hover:text-white"
+                >
+                  Contact me
+                  <IoLogoWhatsapp
+                    className="opacity-70 group-hover:translate-x-1 transition"
+                    size="30px"
+                  />
+                </a>
+                <a
+                  className="bg-gray-200 p-4 ml-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  target="_blank"
+                  href="https://mail.google.com/"
+                >
+                  <MdEmail size="30px" />
+                </a>
+
+                <a
+                  className="bg-gray-200  p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  href="https://www.linkedin.com/in/abdul-mateen-374562333/"
+                  target="_blank"
+                >
+                  <BsLinkedin size="30px" />
+                </a>
+
+                <a
+                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  href="https://github.com/abdulnextdev"
+                  target="_blank"
+                >
+                  <FaGithubSquare size="30px" />
+                </a>
+                <a
+                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  href="https://gitlab.com/abdulnextdev"
+                  target="_blank"
+                >
+                  <FaGitlab size="30px" />
+                </a>
               </div>
             </li>
           </ul>
@@ -130,7 +174,7 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-services" id="services">
+      <section className="colorlib-services " id="services">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
@@ -239,7 +283,7 @@ const MainDiv = () => {
         data-stellar-background-ratio="0.5"
       >
         <div className="overlay"></div>
-        <div className="colorlib-narrow-content">
+        <div className="colorlib-narrow-content ">
           <div className="row"></div>
           <div className="row">
             <div className="col-md-3 text-center animate-box">
