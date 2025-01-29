@@ -59,9 +59,12 @@ const Education = () => {
                       <div className="row">
                         <div className="col-md-6">
                           <p className="dark:text-gray-800">
-                            Far far away, behind the word mountains, far from
-                            the countries Vokalia and Consonantia, there live
-                            the blind texts.{" "}
+                            I developed an in-depth understanding of project
+                            management principles, software development life
+                            cycles, and Agile methodologies. My studies focused
+                            on optimizing team collaboration, risk management,
+                            and delivering high-quality software solutions on
+                            time and within budget
                           </p>
                         </div>
                         <div className="col-md-6">
@@ -98,11 +101,11 @@ const Education = () => {
                   >
                     <div className="panel-body">
                       <p className="dark:text-gray-800">
-                        Far far away, behind the word <strong>mountains</strong>
-                        , far from the countries Vokalia and Consonantia, there
-                        live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a
-                        large language ocean.
+                        I gained a strong foundation in artificial intelligence,
+                        algorithms, and data structures, along with software
+                        development, database management, and computer networks.
+                        My studies emphasized problem-solving, optimization, and
+                        efficient coding practices.
                       </p>
                       <ul type="circle">
                         <li className="dark:text-gray-800">
@@ -139,11 +142,12 @@ const Education = () => {
                   >
                     <div className="panel-body">
                       <p className="dark:text-gray-800">
-                        Far far away, behind the word <strong>mountains</strong>
-                        , far from the countries Vokalia and Consonantia, there
-                        live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a
-                        large language ocean.
+                        I gained practical knowledge in various aspects of
+                        information technology, including computer hardware,
+                        software applications, and networking. My coursework
+                        focused on troubleshooting, system administration, and
+                        enhancing IT infrastructure for efficient business
+                        operations.
                       </p>
                     </div>
                   </div>
