@@ -529,14 +529,12 @@ const MainDiv = () => {
                     </div>
 
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
                         <a href="#">Mega Labs</a>{" "}
                         <span>Feb 2023 – Present</span>
-                        <a href="#">Full Stack Developer</a>{" "}
-                        <span className="float-end">2017-2018</span>
                       </h2>
                       <h3>Full Stack Engineer</h3>
-                      <p>
+                      <p className="mt-2">
                         Tolerably earnestly middleton extremely distrusts she
                         boy now not. Add and offered prepare how cordial two
                         promise. Greatly who affixed suppose but enquire compact
@@ -556,12 +554,12 @@ const MainDiv = () => {
                       <i class="fa-solid fa-pencil"></i>
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
                         <a href="#">Front End Developer at Google Company</a>{" "}
                         <span className="float-end">2017-2018</span>
                       </h2>
                       <h3>Full Stack Developer</h3>
-                      <p>
+                      <p className="mt-2">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -580,7 +578,7 @@ const MainDiv = () => {
                       <i class="fa-solid fa-pencil"></i>
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
                         <a href="#">Freelance Development</a>{" "}
                         <span>Jun 2020 - Jul 2022</span>
                       </h2>
@@ -604,7 +602,7 @@ const MainDiv = () => {
                       <i class="fa-solid fa-pencil"></i>
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
                         <a href="https://www.rolustech.com" target="_blank">
                           Rolustech
                         </a>
