@@ -11,21 +11,21 @@ const MainDiv = () => {
   return (
     <div id="my-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
-        <div className="flexslider h-full">
+        <div className="flexslider h-full dark:bg-black">
           <ul className="">
             <li className="relative h-[100vh] flex items-center justify-between px-20 ">
-              <div className=" flex flex-col gap-6  justify-center   h-fit">
-                <h1 className="sm:text-7xl text-3xl font-bold ">
+              <div className=" flex flex-col gap-6  justify-center   h-fit ">
+                <h1 className="sm:text-7xl text-3xl font-bold dark:text-gray-300">
                   Hi! <br className="my-4" />
                   I'm Abdul
                 </h1>
-                <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4">
+                <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4 dark:text-gray-300">
                   Building Scalable Solutions,
                   <br />
                   One Line of Code at a Time.
                 </h2>
                 <p className="">
-                  <a className="btn-learn">
+                  <a className="btn-learn dark:text-gray-300 dark:border-gray-300">
                     Download CV <i class="fa-solid fa-download"></i>
                   </a>
                 </p>
@@ -35,12 +35,12 @@ const MainDiv = () => {
                   href="https://wa.me/+923222243431"
                   className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500 dark:text-gray-300">
                     WhatsApp
                   </span>
                   <FaWhatsapp
                     size="30px"
-                    className="text-gray-800 group-hover:text-green-500"
+                    className="text-gray-800 group-hover:text-green-500 dark:text-gray-300"
                   />
                 </a>
 
@@ -49,12 +49,12 @@ const MainDiv = () => {
                   target="_blank"
                   href="https://mail.google.com/"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500 dark:text-gray-300">
                     E-Mail
                   </span>
                   <IoMailOutline
                     size="30px"
-                    className="text-gray-800 group-hover:text-orange-500"
+                    className="text-gray-800 group-hover:text-orange-500 dark:text-gray-300"
                   />
                 </a>
 
@@ -63,12 +63,12 @@ const MainDiv = () => {
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-blue-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-blue-500 dark:text-gray-300">
                     LinkedIn
                   </span>
                   <CiLinkedin
                     size="30px"
-                    className="text-gray-800 group-hover:text-blue-500"
+                    className="text-gray-800 group-hover:text-blue-500 dark:text-gray-300"
                   />
                 </a>
 
@@ -77,12 +77,12 @@ const MainDiv = () => {
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-yellow-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-yellow-500 dark:text-gray-300">
                     GitHub
                   </span>
                   <LuGithub
                     size="30px"
-                    className="text-gray-800 group-hover:text-yellow-500"
+                    className="text-gray-800 group-hover:text-yellow-500 dark:text-gray-300"
                   />
                 </a>
 
@@ -91,12 +91,12 @@ const MainDiv = () => {
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500 dark:text-gray-300">
                     GitLab
                   </span>
                   <FiGitlab
                     size="30px"
-                    className="text-gray-800 group-hover:text-orange-500"
+                    className="text-gray-800 group-hover:text-orange-500 dark:text-gray-300"
                   />
                 </a>
               </div>
@@ -528,13 +528,17 @@ const MainDiv = () => {
                       <i class="fa-solid fa-pencil"></i>
                     </div>
 
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
-                        <a href="#">Mega Labs</a>{" "}
+                    <div className="timeline-label bg-[#f2f3f7] dark:bg-black">
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between dark:text-white">
+                        <a href="#" className="dark:!text-gray-300 font-bold">
+                          Mega Labs
+                        </a>{" "}
                         <span>Feb 2023 – Present</span>
                       </h2>
-                      <h3>Full Stack Engineer</h3>
-                      <p className="mt-2">
+                      <h3 className="mt-1 dark:text-gray-300">
+                        Full Stack Engineer
+                      </h3>
+                      <p className="mt-2 dark:text-gray-300 text-justify">
                         Tolerably earnestly middleton extremely distrusts she
                         boy now not. Add and offered prepare how cordial two
                         promise. Greatly who affixed suppose but enquire compact
@@ -553,13 +557,17 @@ const MainDiv = () => {
                     <div className="timeline-icon color-2">
                       <i class="fa-solid fa-pencil"></i>
                     </div>
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
-                        <a href="#">Front End Developer at Google Company</a>{" "}
-                        <span className="float-end">2017-2018</span>
+                    <div className="timeline-label bg-[#f2f3f7] dark:bg-black">
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between dark:text-gray-300">
+                        <a href="#" className="dark:!text-gray-300 font-bold">
+                          Front End Developer at Google Company
+                        </a>{" "}
+                        <span className="float-end ">2017-2018</span>
                       </h2>
-                      <h3>Full Stack Developer</h3>
-                      <p className="mt-2">
+                      <h3 className="mt-1 dark:text-gray-300">
+                        Full Stack Developer
+                      </h3>
+                      <p className="mt-2 dark:text-gray-300 text-justify">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -577,13 +585,17 @@ const MainDiv = () => {
                     <div className="timeline-icon color-3">
                       <i class="fa-solid fa-pencil"></i>
                     </div>
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
-                        <a href="#">Freelance Development</a>{" "}
+                    <div className="timeline-label bg-[#f2f3f7] dark:bg-black">
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between dark:text-gray-300">
+                        <a href="#" className="dark:!text-gray-300 font-bold">
+                          Freelance Development
+                        </a>{" "}
                         <span>Jun 2020 - Jul 2022</span>
                       </h2>
-                      <h3>Full Stack Developer</h3>
-                      <p className="mt-2">
+                      <h3 className="mt-1 dark:text-gray-300">
+                        Full Stack Developer
+                      </h3>
+                      <p className="mt-2 dark:text-gray-300 text-justify">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -601,15 +613,21 @@ const MainDiv = () => {
                     <div className="timeline-icon color-4">
                       <i class="fa-solid fa-pencil"></i>
                     </div>
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2 className="flex flex-col sm:flex-row sm:justify-between">
-                        <a href="https://www.rolustech.com" target="_blank">
+                    <div className="timeline-label bg-[#f2f3f7] dark:bg-black">
+                      <h2 className="flex flex-col sm:flex-row sm:justify-between dark:text-gray-300">
+                        <a
+                          href="https://www.rolustech.com"
+                          target="_blank"
+                          className="dark:!text-gray-300 font-bold"
+                        >
                           Rolustech
                         </a>
                         <span>Jun 2013 – May 2020</span>
                       </h2>
-                      <h3>Software Engineer</h3>
-                      <p className="mt-2">
+                      <h3 className="mt-1 dark:text-gray-300">
+                        Software Engineer
+                      </h3>
+                      <p className="mt-2 dark:text-gray-300 text-justify">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem

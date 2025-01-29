@@ -34,7 +34,7 @@ const Education = () => {
               >
                 <div className="panel panel-default">
                   <div className="panel-heading " role="tab" id="headingOne">
-                    <h4 className="panel-title">
+                    <h4 className="panel-title ">
                       <a
                         onClick={() => togglePanel("collapseOne")}
                         aria-expanded={openPanel === "collapseOne"}
@@ -49,22 +49,22 @@ const Education = () => {
                   </div>
                   <div
                     id="collapseOne"
-                    className={`panel-collapse  ${
+                    className={`panel-collapse ${
                       openPanel === "collapseOne" ? "in" : "collapse"
                     }`}
                     role="tabpanel"
                     aria-labelledby="headingOne"
                   >
-                    <div className="panel-body">
-                          <p className="dark:text-gray-800">
-                            I developed an in-depth understanding of project
-                            management principles, software development life
-                            cycles, and Agile methodologies. My studies focused
-                            on optimizing team collaboration, risk management,
-                            and delivering high-quality software solutions on
-                            time and within budget
-                          </p>
-                        </div>
+                    <div className="panel-body dark:bg-black">
+                      <p className="dark:text-gray-300">
+                        I developed an in-depth understanding of project
+                        management principles, software development life cycles,
+                        and Agile methodologies. My studies focused on
+                        optimizing team collaboration, risk management, and
+                        delivering high-quality software solutions on time and
+                        within budget
+                      </p>
+                    </div>
                   </div>
                 </div>
                 <div className="panel panel-default">
@@ -89,8 +89,8 @@ const Education = () => {
                     role="tabpanel"
                     aria-labelledby="headingTwo"
                   >
-                    <div className="panel-body">
-                      <p className="dark:text-gray-800">
+                    <div className="panel-body dark:bg-black">
+                      <p className="dark:text-gray-300">
                         I gained a strong foundation in artificial intelligence,
                         algorithms, and data structures, along with software
                         development, database management, and computer networks.
@@ -122,8 +122,8 @@ const Education = () => {
                     role="tabpanel"
                     aria-labelledby="headingThree"
                   >
-                    <div className="panel-body">
-                      <p className="dark:text-gray-800">
+                    <div className="panel-body dark:bg-black">
+                      <p className="dark:text-gray-300">
                         I gained practical knowledge in various aspects of
                         information technology, including computer hardware,
                         software applications, and networking. My coursework
