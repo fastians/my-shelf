@@ -48,7 +48,7 @@ const Sidebar = () => {
     const handleToggle = (event) => {
       event.preventDefault();
       const body = document.querySelector("body");
-      const navToggle = document.querySelector(".js-colorlib-nav-toggle");
+      const navToggle = document.querySelector(".js-my-nav-toggle");
 
       if (body.classList.contains("offcanvas")) {
         navToggle.classList.remove("active");
@@ -59,7 +59,7 @@ const Sidebar = () => {
       }
     };
 
-    const navToggle = document.querySelector(".js-colorlib-nav-toggle");
+    const navToggle = document.querySelector(".js-my-nav-toggle");
     navToggle.addEventListener("click", handleToggle);
 
     window.addEventListener("scroll", handleScroll);
@@ -72,13 +72,13 @@ const Sidebar = () => {
 
   return (
     <div
-      id="colorlib-page"
+      id="my-page"
       className="bg-white dark:bg-black transition-all duration-200"
     >
       <div className="container-wrap bg-[#f2f3f7] dark:bg-gray-800 dark:text-white">
         <a
           href="#"
-          className="js-colorlib-nav-toggle colorlib-nav-toggle"
+          className="js-my-nav-toggle my-nav-toggle"
           data-toggle="collapse"
           data-target="#navbar"
           aria-expanded="false"
@@ -87,7 +87,7 @@ const Sidebar = () => {
           <i></i>
         </a>
         <aside
-          id="colorlib-aside"
+          id="my-aside"
           role="complementary"
           className="border h-full flex flex-col justify-between dark:bg-black bg-[#f2f3f7]"
         >
@@ -97,12 +97,12 @@ const Sidebar = () => {
                 className="author-img"
                 style={{ backgroundImage: `url("images/about.jpg")` }}
               ></div>
-              <h1 id="colorlib-logo" className="dark:text-white text-black">
+              <h1 id="my-logo" className="dark:text-white text-black">
                 <a href="index.html">Abdul Mateen</a>
               </h1>
               <span className="position">Frontend Developer</span>
             </div>
-            <nav id="colorlib-main-menu" role="navigation" className="navbar">
+            <nav id="my-main-menu" role="navigation" className="navbar">
               <div
                 id="navbar"
                 // className="collapse"

@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import Education from "../Education/Education";
-import ThemeChanger from "../ThemeChanger/ThemeChanger";
-import { MdEmail } from "react-icons/md";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithubSquare, FaGitlab } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+import { LuGithub } from "react-icons/lu";
+import { FiGitlab } from "react-icons/fi";
+
 const MainDiv = () => {
   return (
-    <div id="colorlib-main" className="dark:bg-black">
+    <div id="my-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
         <div className="flexslider h-full">
           <ul className="">
@@ -33,54 +32,71 @@ const MainDiv = () => {
               <div className="flex flex-col  items-end justify-center gap-2   font-medium  h-fit">
                 <a
                   href="https://wa.me/+923222243431"
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     WhatsApp
                   </span>
-                  <IoLogoWhatsapp size="30px" color="#25D366" />
+                  <FaWhatsapp
+                    size="30px"
+                    className="text-gray-800 group-hover:text-green-500"
+                  />
                 </a>
+
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-orange-500"
                   target="_blank"
                   href="https://mail.google.com/"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500">
                     E-Mail
                   </span>
-                  <MdEmail size="30px" color="gray" />
+                  <IoMailOutline
+                    size="30px"
+                    className="text-gray-800 group-hover:text-orange-500"
+                  />
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-blue-500"
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b  border-black">
-                    Linkedin
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-blue-500">
+                    LinkedIn
                   </span>
-                  <FaLinkedin size="30px" color="#0077B5" />
+                  <CiLinkedin
+                    size="30px"
+                    className="text-gray-800 group-hover:text-blue-500"
+                  />
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     GitHub
                   </span>
-                  <FaGithubSquare size="30px" />
+                  <LuGithub
+                    size="30px"
+                    className="text-gray-800 group-hover:text-green-500"
+                  />
                 </a>
+
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     GitLab
                   </span>
-                  <FaGitlab size="30px" color="#F96826" />
+                  <FiGitlab
+                    size="30px"
+                    className="text-gray-800 group-hover:text-[#F96826]"
+                  />
                 </a>
               </div>
             </li>
@@ -88,8 +104,8 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-about " id="about">
-        <div className="colorlib-narrow-content">
+      <section className="my-about " id="about">
+        <div className="my-narrow-content">
           <div className="row">
             <div className="col-md-12">
               <div
@@ -99,9 +115,7 @@ const MainDiv = () => {
                 <div className="col-md-12">
                   <div className="about-desc">
                     <span className="heading-meta">About Me</span>
-                    <h2 className="colorlib-heading dark:text-white">
-                      Who Am I?
-                    </h2>
+                    <h2 className="my-heading dark:text-white">Who Am I?</h2>
                     <p>
                       <strong>Hi, I'm Abdul</strong>, a passionate and
                       results-driven Senior Software Engineer specializing in
@@ -173,27 +187,25 @@ const MainDiv = () => {
             </div>
           </div>
           <div
-            id="colorlib-counter"
-            className="colorlib-counters"
+            id="my-counter"
+            className="my-counters"
             style={{ backgroundImage: `url("images/cover_bg_1.jpg")` }}
             data-stellar-background-ratio="0.5"
           >
             <div className="overlay"></div>
-            <div className="colorlib-narrow-content ">
+            <div className="my-narrow-content ">
               <div className="row"></div>
               <div className="row">
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="309"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">
-                      Cups of coffee
-                    </span>
+                    <span className="my-counter-label">Cups of coffee</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       1
                     </span>
@@ -201,14 +213,14 @@ const MainDiv = () => {
                 </div>
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="356"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">Projects</span>
+                    <span className="my-counter-label">Projects</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       2
                     </span>
@@ -216,14 +228,14 @@ const MainDiv = () => {
                 </div>
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="30"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">Clients</span>
+                    <span className="my-counter-label">Clients</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       3
                     </span>
@@ -235,15 +247,15 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-services " id="services">
-        <div className="colorlib-narrow-content">
+      <section className="my-services " id="services">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box "
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">What I do?</span>
-              <h2 className="colorlib-heading dark:text-white">
+              <h2 className="my-heading dark:text-white">
                 Here are some of my expertise
               </h2>
             </div>
@@ -337,15 +349,15 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-skills" id="skills">
-        <div className="colorlib-narrow-content">
+      <section className="my-skills" id="skills">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">My Specialty</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
+              <h2 className="my-heading animate-box dark:text-white">
                 My Skills
               </h2>
             </div>
@@ -490,15 +502,15 @@ const MainDiv = () => {
 
       <Education />
 
-      <section className="colorlib-experience" id="experience">
-        <div className="colorlib-narrow-content">
+      <section className="my-experience" id="experience">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">Experience</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
+              <h2 className="my-heading animate-box dark:text-white">
                 Work Experience
               </h2>
             </div>
@@ -564,8 +576,10 @@ const MainDiv = () => {
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
-                        <a href="#">System Analyst</a> <span>2017-2018</span>
+                        <a href="#">Freelance Development</a>{" "}
+                        <span>June 2020 - July 2022</span>
                       </h2>
+                      <h3>Full Stack Developer</h3>
                       <p>
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
@@ -586,8 +600,12 @@ const MainDiv = () => {
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
-                        <a href="#">Creative Designer</a> <span>2017-2018</span>
+                        <a href="https://www.rolustech.com" target="_blank">
+                          Rolustech
+                        </a>
+                        <span>June 2013 – May 2020</span>
                       </h2>
+                      <h3>Software Engineer</h3>
                       <p>
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
@@ -597,30 +615,6 @@ const MainDiv = () => {
                     </div>
                   </div>
                 </article>
-
-                <article
-                  className="timeline-entry animate-box"
-                  data-animate-effect="fadeInLeft"
-                >
-                  <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-5">
-                      <i class="fa-solid fa-pencil"></i>
-                    </div>
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
-                        <a href="#">UI/UX Designer at Envato</a>{" "}
-                        <span>2017-2018</span>
-                      </h2>
-                      <p>
-                        Even the all-powerful Pointing has no control about the
-                        blind texts it is an almost unorthographic life One day
-                        however a small line of blind text by the name of Lorem
-                        Ipsum decided to leave for the far World of Grammar.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-
                 <article
                   className="timeline-entry begin animate-box"
                   data-animate-effect="fadeInBottom"
@@ -634,282 +628,15 @@ const MainDiv = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="colorlib-work" id="work">
-        <div className="colorlib-narrow-content">
+      <section className="my-blog" id="work">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">My Work</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
-                Recent Work
-              </h2>
-            </div>
-          </div>
-          <div
-            className="row row-bottom-padded-sm animate-box "
-            data-animate-effect="fadeInLeft"
-          >
-            <div className="col-md-12">
-              <p className="work-menu">
-                <span>
-                  <a href="#" className="active">
-                    Graphic Design
-                  </a>
-                </span>{" "}
-                <span>
-                  <a className="dark:text-white" href="#">
-                    Web Design
-                  </a>
-                </span>{" "}
-                <span>
-                  <a className="dark:text-white" href="#">
-                    Software
-                  </a>
-                </span>{" "}
-                <span>
-                  <a className="dark:text-white" href="#">
-                    Apps
-                  </a>
-                </span>
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-1.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 01</a>
-                    </h3>
-                    <span>Website</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-2.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 02</a>
-                    </h3>
-                    <span>Animation</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInTop"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-3.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 03</a>
-                    </h3>
-                    <span>Illustration</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInBottom"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-4.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 04</a>
-                    </h3>
-                    <span>Application</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-5.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 05</a>
-                    </h3>
-                    <span>Graphic, Logo</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div
-                className="project"
-                style={{ backgroundImage: `url("images/img-6.jpg")` }}
-              >
-                <div className="desc">
-                  <div className="con">
-                    <h3>
-                      <a href="work.html">Work 06</a>
-                    </h3>
-                    <span>Web Design</span>
-                    <p className="icon">
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-share-nodes"></i>
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-eye"></i> 100
-                        </a>
-                      </span>
-                      <span>
-                        <a href="#">
-                          <i class="fa-solid fa-heart"></i> 49
-                        </a>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12 animate-box">
-              <p>
-                <a href="#" className="btn btn-primary btn-lg btn-load-more">
-                  Load more <i class="fa-solid fa-rotate-right"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      <section className="colorlib-blog" id="work">
-        <div className="colorlib-narrow-content">
-          <div className="row">
-            <div
-              className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <span className="heading-meta">My Work</span>
-              <h2 className="colorlib-heading dark:text-white">Recent Work</h2>
+              <h2 className="my-heading dark:text-white">Recent Work</h2>
             </div>
           </div>
           <div className="row">
@@ -1128,112 +855,6 @@ const MainDiv = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="colorlib-contact" id="contact">
-        <div className="colorlib-narrow-content">
-          <div className="row">
-            <div
-              className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <span className="heading-meta">Get in Touch</span>
-              <h2 className="colorlib-heading dark:text-white">Contact</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-5 flex flex-col gap-4">
-              <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
-                  <i className="fa-solid fa-globe"></i>
-                </div>
-                <div className="colorlib-text">
-                  <p>
-                    <a href="#">info@domain.com</a>
-                  </p>
-                </div>
-              </div>
-
-              <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
-                  <i className="fa-solid fa-map"></i>
-                </div>
-                <div className="colorlib-text">
-                  <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                </div>
-              </div>
-
-              <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
-                data-animate-effect="fadeInLeft"
-              >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
-                  <i className="fa-solid fa-phone"></i>
-                </div>
-                <div className="colorlib-text">
-                  <p>
-                    <a href="tel://">+123 456 7890</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-7 col-md-push-1 sm:mt-0 mt-10">
-              <div className="row">
-                <div
-                  className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
-                  data-animate-effect="fadeInRight"
-                >
-                  <form action="">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control "
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Subject"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <textarea
-                        name=""
-                        id="message"
-                        cols="30"
-                        rows="7"
-                        className="form-control"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-                    <div className="form-group">
-                      <input
-                        type="submit"
-                        className="btn btn-primary btn-send-message"
-                        value="Send Message"
-                      />
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </div>
   );
 };

@@ -7,15 +7,15 @@ const Education = () => {
     setOpenPanel(openPanel === panelId ? "" : panelId);
   };
   return (
-    <section className="colorlib-education" id="education">
-      <div className="colorlib-narrow-content">
+    <section className="my-education" id="education">
+      <div className="my-narrow-content">
         <div className="row">
           <div
             className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
             data-animate-effect="fadeInLeft"
           >
             <span className="heading-meta">Education</span>
-            <h2 className="colorlib-heading animate-box dark:text-white">
+            <h2 className="my-heading animate-box dark:text-white">
               Education
             </h2>
           </div>
