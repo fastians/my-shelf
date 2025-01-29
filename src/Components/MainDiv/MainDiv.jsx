@@ -16,10 +16,9 @@ const MainDiv = () => {
                   I'm Jackson
                 </h1>
                 <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4">
-                  100% html5 bootstrap templates Made by{" "}
-                  <a href="https://colorlib.com/" target="_blank">
-                    colorlib.com
-                  </a>
+                  Building Scalable Solutions,
+                  <br/>
+                  One Line of Code at a Time.
                 </h2>
                 <p className="">
                   <a className="btn-learn">
@@ -900,7 +899,7 @@ const MainDiv = () => {
                 </a>
                 <div className="desc">
                   <span>
-                    <small>April 14, 2018 </small> | <small> Web Design </small>{" "}
+                    <small>React Js </small> | <small> Web Design </small>{" "}
                     |{" "}
                     <small>
                       {" "}
