@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare, FaGitlab } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 const MainDiv = () => {
   return (
     <div id="colorlib-main" className="dark:bg-black">
@@ -12,7 +13,7 @@ const MainDiv = () => {
         <div className="flexslider h-full">
           <ul className="">
             <li className="relative h-[100vh] flex  justify-center px-20">
-              <div className=" flex flex-col gap-6  justify-center">
+              <div className=" flex flex-col gap-6  justify-center w-full">
                 <h1 className="sm:text-7xl text-3xl font-bold ">
                   Hi! <br className="my-4" />
                   I'm Jackson
@@ -28,45 +29,46 @@ const MainDiv = () => {
                   </a>
                 </p>
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
+              <div className="flex flex-col  items-center justify-center gap-2 px-4  font-medium w-full">
                 <a
                   href="https://wa.me/+923222243431"
-                  className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition text-2xl hover:text-white"
+                  className="btn-learn flex items-center justify-between !py-2 gap-2 w-60"
                 >
-                  Contact me
-                  <IoLogoWhatsapp
-                    className="opacity-70 group-hover:translate-x-1 transition"
-                    size="30px"
-                  />
+                  WhatsApp
+                  <IoLogoWhatsapp size="30px" />
                 </a>
                 <a
-                  className="bg-gray-200 p-4 ml-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
                   target="_blank"
                   href="https://mail.google.com/"
                 >
+                  E-Mail
                   <MdEmail size="30px" />
                 </a>
 
                 <a
-                  className="bg-gray-200  p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  <BsLinkedin size="30px" />
+                  Linkedin
+                  <FaLinkedin size="30px" />
                 </a>
 
                 <a
-                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
+                  GitHub
                   <FaGithubSquare size="30px" />
                 </a>
                 <a
-                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
+                  GitLab
                   <FaGitlab size="30px" />
                 </a>
               </div>
