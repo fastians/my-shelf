@@ -42,7 +42,7 @@ const Education = () => {
                           openPanel === "collapseOne" || "collapsed"
                         }`}
                       >
-                        Master Degree Graphic Design
+                        Master Degree of Computer Science
                       </a>
                     </h4>
                     {/* <i className="fa-solid fa-plus bg-[#2c98f0] w-full h-full"></i> */}
@@ -136,70 +136,6 @@ const Education = () => {
                     }`}
                     role="tabpanel"
                     aria-labelledby="headingThree"
-                  >
-                    <div className="panel-body">
-                      <p className="dark:text-gray-800">
-                        Far far away, behind the word <strong>mountains</strong>
-                        , far from the countries Vokalia and Consonantia, there
-                        live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a
-                        large language ocean.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingFour">
-                    <h4 className="panel-title">
-                      <a
-                        className={`${
-                          openPanel === "collapseFour" || "collapsed"
-                        }`}
-                        onClick={() => togglePanel("collapseFour")}
-                        aria-expanded={openPanel === "collapseFour"}
-                      >
-                        Diploma in Information Technology
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseFour"
-                    className={`panel-collapse  ${
-                      openPanel === "collapseFour" ? "in" : "collapse"
-                    }`}
-                    role="tabpanel"
-                    aria-labelledby="headingFour"
-                  >
-                    <div className="panel-body">
-                      <p className="dark:text-gray-800">
-                        Far far away, behind the word <strong>mountains</strong>
-                        , far from the countries Vokalia and Consonantia, there
-                        live the blind texts. Separated they live in
-                        Bookmarksgrove right at the coast of the Semantics, a
-                        large language ocean.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingFive">
-                    <h4 className="panel-title">
-                      <a
-                        className={`${
-                          openPanel === "collapseFive" || "collapsed"
-                        }`}
-                        onClick={() => togglePanel("collapseFive")}
-                        aria-expanded={openPanel === "collapseFive"}
-                      >
-                        High School Secondary Education
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseFive"
-                    className={`panel-collapse  ${
-                      openPanel === "collapseFive" ? "in" : "collapse"
-                    }`}
                   >
                     <div className="panel-body">
                       <p className="dark:text-gray-800">
