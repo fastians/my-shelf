@@ -115,9 +115,7 @@ const MainDiv = () => {
                 <div className="col-md-12">
                   <div className="about-desc">
                     <span className="heading-meta">About Me</span>
-                    <h2 className="my-heading dark:text-white">
-                      Who Am I?
-                    </h2>
+                    <h2 className="my-heading dark:text-white">Who Am I?</h2>
                     <p>
                       <strong>Hi, I'm Abdul</strong>, a passionate and
                       results-driven Senior Software Engineer specializing in
@@ -207,9 +205,7 @@ const MainDiv = () => {
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="my-counter-label">
-                      Cups of coffee
-                    </span>
+                    <span className="my-counter-label">Cups of coffee</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       1
                     </span>
@@ -580,8 +576,10 @@ const MainDiv = () => {
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
-                        <a href="#">System Analyst</a> <span>2017-2018</span>
+                        <a href="#">Freelance Development</a>{" "}
+                        <span>June 2020 - July 2022</span>
                       </h2>
+                      <h3>Full Stack Developer</h3>
                       <p>
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
@@ -602,8 +600,12 @@ const MainDiv = () => {
                     </div>
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
-                        <a href="#">Creative Designer</a> <span>2017-2018</span>
+                        <a href="https://www.rolustech.com" target="_blank">
+                          Rolustech
+                        </a>
+                        <span>June 2013 – May 2020</span>
                       </h2>
+                      <h3>Software Engineer</h3>
                       <p>
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
@@ -613,30 +615,6 @@ const MainDiv = () => {
                     </div>
                   </div>
                 </article>
-
-                <article
-                  className="timeline-entry animate-box"
-                  data-animate-effect="fadeInLeft"
-                >
-                  <div className="timeline-entry-inner">
-                    <div className="timeline-icon color-5">
-                      <i class="fa-solid fa-pencil"></i>
-                    </div>
-                    <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
-                      <h2>
-                        <a href="#">UI/UX Designer at Envato</a>{" "}
-                        <span>2017-2018</span>
-                      </h2>
-                      <p>
-                        Even the all-powerful Pointing has no control about the
-                        blind texts it is an almost unorthographic life One day
-                        however a small line of blind text by the name of Lorem
-                        Ipsum decided to leave for the far World of Grammar.
-                      </p>
-                    </div>
-                  </div>
-                </article>
-
                 <article
                   className="timeline-entry begin animate-box"
                   data-animate-effect="fadeInBottom"
