@@ -166,22 +166,22 @@ const Sidebar = () => {
                 >
                   Work
                 </li>
-                <li
+                {/* <li
                   className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
                     activeSection === "blog" && "text-[#2c98f0] underline"
                   }`}
                   onClick={() => scrollToSection("blog")}
                 >
                   Blog
-                </li>
-                <li
+                </li> */}
+                {/* <li
                   className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
                     activeSection === "contact" && "text-[#2c98f0] underline"
                   }`}
                   onClick={() => scrollToSection("contact")}
                 >
                   Contact
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>

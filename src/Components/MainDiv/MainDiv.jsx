@@ -577,7 +577,7 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-work" id="work">
+      {/* <section className="colorlib-work" id="work">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
@@ -841,17 +841,17 @@ const MainDiv = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="colorlib-blog" id="blog">
+      <section className="colorlib-work" id="work">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
-              <span className="heading-meta">Read</span>
-              <h2 className="colorlib-heading dark:text-white">Recent Blog</h2>
+              <span className="heading-meta">My Work</span>
+              <h2 className="colorlib-heading dark:text-white">Recent Work</h2>
             </div>
           </div>
           <div className="row">
@@ -961,7 +961,7 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-contact" id="contact">
+      {/* <section className="colorlib-contact" id="contact">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
@@ -1065,7 +1065,7 @@ const MainDiv = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
