@@ -17,7 +17,7 @@ const MainDiv = () => {
                 </h1>
                 <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4">
                   Building Scalable Solutions,
-                  <br/>
+                  <br />
                   One Line of Code at a Time.
                 </h2>
                 <p className="">
@@ -304,79 +304,25 @@ const MainDiv = () => {
               data-animate-effect="fadeInLeft"
             >
               <p>
-                The Big Oxmox advised her not to do so, because there were
-                thousands of bad Commas, wild Question Marks and devious
-                Semikoli, but the Little Blind Text didn’t listen. She packed
-                her seven versalia, put her initial into the belt and made
-                herself on the way.
+                I specialize in crafting high-performance, user-centric web
+                applications. With expertise in modern frontend frameworks and
+                backend technologies, I build scalable and maintainable software
+                solutions that enhance user experience and business efficiency.
+                My skills include frontend development, API integration, code
+                optimization, and deployment automation.
               </p>
             </div>
+
+            {/* Frontend Skills */}
             <div
               className="col-md-6 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3 className="dark:text-white">Photoshop</h3>
+                <h3 className="dark:text-white">React.js & Next.js</h3>
                 <div className="progress">
                   <div
-                    className="progress-bar color-1 w-[75%]"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>75%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div className="progress-wrap">
-                <h3 className="dark:text-white">jQuery</h3>
-                <div className="progress">
-                  <div
-                    className="progress-bar color-2 w-[60%]"
-                    role="progressbar"
-                    aria-valuenow="60"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>60%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div className="progress-wrap">
-                <h3 className="dark:text-white">HTML5</h3>
-                <div className="progress">
-                  <div
-                    className="progress-bar color-3 w-[85%]"
-                    role="progressbar"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>85%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div className="progress-wrap">
-                <h3 className="dark:text-white">CSS3</h3>
-                <div className="progress">
-                  <div
-                    className="progress-bar color-4 w-[90%]"
+                    className="progress-bar color-1 w-[90%]"
                     role="progressbar"
                     aria-valuenow="90"
                     aria-valuemin="0"
@@ -389,38 +335,99 @@ const MainDiv = () => {
             </div>
             <div
               className="col-md-6 animate-box"
-              data-animate-effect="fadeInLeft"
+              data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3 className="dark:text-white">WordPress</h3>
+                <h3 className="dark:text-white">JavaScript & TypeScript</h3>
                 <div className="progress">
                   <div
-                    className="progress-bar color-5 w-[70%]"
+                    className="progress-bar color-2 w-[85%]"
                     role="progressbar"
-                    aria-valuenow="70"
+                    aria-valuenow="85"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
-                    <span>70%</span>
+                    <span>85%</span>
                   </div>
                 </div>
               </div>
             </div>
             <div
               className="col-md-6 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="progress-wrap">
+                <h3 className="dark:text-white">CSS3 & Tailwind</h3>
+                <div className="progress">
+                  <div
+                    className="progress-bar color-3 w-[90%]"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Backend Skills */}
+            <div
+              className="col-md-6 animate-box"
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3 className="dark:text-white">SEO</h3>
+                <h3 className="dark:text-white">Node.js & PHP</h3>
                 <div className="progress">
                   <div
-                    className="progress-bar color-6 w-[80%]"
+                    className="progress-bar color-4 w-[75%]"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span>75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="progress-wrap">
+                <h3 className="dark:text-white">RESTful APIs & GraphQL</h3>
+                <div className="progress">
+                  <div
+                    className="progress-bar color-5 w-[80%]"
                     role="progressbar"
                     aria-valuenow="80"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
                     <span>80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Deployment & DevOps */}
+            <div
+              className="col-md-6 animate-box"
+              data-animate-effect="fadeInRight"
+            >
+              <div className="progress-wrap">
+                <h3 className="dark:text-white">AWS & Docker</h3>
+                <div className="progress">
+                  <div
+                    className="progress-bar color-6 w-[70%]"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span>70%</span>
                   </div>
                 </div>
               </div>
@@ -899,8 +906,7 @@ const MainDiv = () => {
                 </a>
                 <div className="desc">
                   <span>
-                    <small>React Js </small> | <small> Web Design </small>{" "}
-                    |{" "}
+                    <small>React Js </small> | <small> Web Design </small> |{" "}
                     <small>
                       {" "}
                       <i className="icon-bubble3"></i> 4
