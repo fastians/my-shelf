@@ -70,7 +70,7 @@ const MainDiv = () => {
                 >
                   <div className="services color-1 dark:bg-gray-300">
                     <span className="icon2">
-                      <i class="fa-regular fa-lightbulb"></i>{" "}
+                      <i className="fa-regular fa-lightbulb"></i>{" "}
                     </span>
                     <h3>Graphic Design</h3>
                   </div>
@@ -843,7 +843,7 @@ const MainDiv = () => {
         </div>
       </section> */}
 
-      <section className="colorlib-work" id="work">
+      <section className="colorlib-blog" id="work">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
