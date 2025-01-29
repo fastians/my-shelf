@@ -13,7 +13,7 @@ import { FiGitlab } from "react-icons/fi";
 
 const MainDiv = () => {
   return (
-    <div id="colorlib-main" className="dark:bg-black">
+    <div id="my-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
         <div className="flexslider h-full">
           <ul className="">
@@ -109,8 +109,8 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-about " id="about">
-        <div className="colorlib-narrow-content">
+      <section className="my-about " id="about">
+        <div className="my-narrow-content">
           <div className="row">
             <div className="col-md-12">
               <div
@@ -120,7 +120,7 @@ const MainDiv = () => {
                 <div className="col-md-12">
                   <div className="about-desc">
                     <span className="heading-meta">About Me</span>
-                    <h2 className="colorlib-heading dark:text-white">
+                    <h2 className="my-heading dark:text-white">
                       Who Am I?
                     </h2>
                     <p>
@@ -194,25 +194,25 @@ const MainDiv = () => {
             </div>
           </div>
           <div
-            id="colorlib-counter"
-            className="colorlib-counters"
+            id="my-counter"
+            className="my-counters"
             style={{ backgroundImage: `url("images/cover_bg_1.jpg")` }}
             data-stellar-background-ratio="0.5"
           >
             <div className="overlay"></div>
-            <div className="colorlib-narrow-content ">
+            <div className="my-narrow-content ">
               <div className="row"></div>
               <div className="row">
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="309"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">
+                    <span className="my-counter-label">
                       Cups of coffee
                     </span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
@@ -222,14 +222,14 @@ const MainDiv = () => {
                 </div>
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="356"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">Projects</span>
+                    <span className="my-counter-label">Projects</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       2
                     </span>
@@ -237,14 +237,14 @@ const MainDiv = () => {
                 </div>
                 <div className="col-md-4 text-center animate-box">
                   <span
-                    className="colorlib-counter js-counter"
+                    className="my-counter js-counter"
                     data-from="0"
                     data-to="30"
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
                   <div>
-                    <span className="colorlib-counter-label">Clients</span>
+                    <span className="my-counter-label">Clients</span>
                     <span className="text-5xl text-[#ffffff] opacity-70">
                       3
                     </span>
@@ -256,15 +256,15 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-services " id="services">
-        <div className="colorlib-narrow-content">
+      <section className="my-services " id="services">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box "
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">What I do?</span>
-              <h2 className="colorlib-heading dark:text-white">
+              <h2 className="my-heading dark:text-white">
                 Here are some of my expertise
               </h2>
             </div>
@@ -358,15 +358,15 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-skills" id="skills">
-        <div className="colorlib-narrow-content">
+      <section className="my-skills" id="skills">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">My Specialty</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
+              <h2 className="my-heading animate-box dark:text-white">
                 My Skills
               </h2>
             </div>
@@ -511,15 +511,15 @@ const MainDiv = () => {
 
       <Education />
 
-      <section className="colorlib-experience" id="experience">
-        <div className="colorlib-narrow-content">
+      <section className="my-experience" id="experience">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">Experience</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
+              <h2 className="my-heading animate-box dark:text-white">
                 Work Experience
               </h2>
             </div>
@@ -656,15 +656,15 @@ const MainDiv = () => {
         </div>
       </section>
 
-      {/* <section className="colorlib-work" id="work">
-        <div className="colorlib-narrow-content">
+      {/* <section className="my-work" id="work">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">My Work</span>
-              <h2 className="colorlib-heading animate-box dark:text-white">
+              <h2 className="my-heading animate-box dark:text-white">
                 Recent Work
               </h2>
             </div>
@@ -922,15 +922,15 @@ const MainDiv = () => {
         </div>
       </section> */}
 
-      <section className="colorlib-blog" id="work">
-        <div className="colorlib-narrow-content">
+      <section className="my-blog" id="work">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">My Work</span>
-              <h2 className="colorlib-heading dark:text-white">Recent Work</h2>
+              <h2 className="my-heading dark:text-white">Recent Work</h2>
             </div>
           </div>
           <div className="row">
@@ -943,7 +943,7 @@ const MainDiv = () => {
                   <img
                     src="images/blog-1.jpg"
                     className="img-responsive"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
+                    alt="HTML5 Bootstrap Template by my.com"
                   />
                 </a>
                 <div className="desc">
@@ -974,7 +974,7 @@ const MainDiv = () => {
                   <img
                     src="images/blog-2.jpg"
                     className="img-responsive"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
+                    alt="HTML5 Bootstrap Template by my.com"
                   />
                 </a>
                 <div className="desc">
@@ -1004,7 +1004,7 @@ const MainDiv = () => {
                   <img
                     src="images/blog-3.jpg"
                     className="img-responsive"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
+                    alt="HTML5 Bootstrap Template by my.com"
                   />
                 </a>
                 <div className="desc">
@@ -1045,27 +1045,27 @@ const MainDiv = () => {
         </div>
       </section>
 
-      {/* <section className="colorlib-contact" id="contact">
-        <div className="colorlib-narrow-content">
+      {/* <section className="my-contact" id="contact">
+        <div className="my-narrow-content">
           <div className="row">
             <div
               className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
               data-animate-effect="fadeInLeft"
             >
               <span className="heading-meta">Get in Touch</span>
-              <h2 className="colorlib-heading dark:text-white">Contact</h2>
+              <h2 className="my-heading dark:text-white">Contact</h2>
             </div>
           </div>
           <div className="row">
             <div className="col-md-5 flex flex-col gap-4">
               <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
+                className="my-feature my-feature-sm animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
+                <div className="my-icon dark:bg-black dark:border-2">
                   <i className="fa-solid fa-globe"></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="my-text">
                   <p>
                     <a href="#">info@domain.com</a>
                   </p>
@@ -1073,25 +1073,25 @@ const MainDiv = () => {
               </div>
 
               <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
+                className="my-feature my-feature-sm animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
+                <div className="my-icon dark:bg-black dark:border-2">
                   <i className="fa-solid fa-map"></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="my-text">
                   <p>198 West 21th Street, Suite 721 New York NY 10016</p>
                 </div>
               </div>
 
               <div
-                className="colorlib-feature colorlib-feature-sm animate-box"
+                className="my-feature my-feature-sm animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <div className="colorlib-icon dark:bg-black dark:border-2">
+                <div className="my-icon dark:bg-black dark:border-2">
                   <i className="fa-solid fa-phone"></i>
                 </div>
-                <div className="colorlib-text">
+                <div className="my-text">
                   <p>
                     <a href="tel://">+123 456 7890</a>
                   </p>
