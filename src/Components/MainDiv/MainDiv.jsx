@@ -17,7 +17,7 @@ const MainDiv = () => {
               <div className=" flex flex-col gap-6  justify-center   h-fit">
                 <h1 className="sm:text-7xl text-3xl font-bold ">
                   Hi! <br className="my-4" />
-                  I'm Jackson
+                  I'm Abdul
                 </h1>
                 <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4">
                   Building Scalable Solutions,
@@ -182,7 +182,7 @@ const MainDiv = () => {
             <div className="colorlib-narrow-content ">
               <div className="row"></div>
               <div className="row">
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -190,9 +190,16 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Cups of coffee</span>
+                  <div>
+                    <span className="colorlib-counter-label">
+                      Cups of coffee
+                    </span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      1
+                    </span>
+                  </div>
                 </div>
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -200,9 +207,14 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Projects</span>
+                  <div>
+                    <span className="colorlib-counter-label">Projects</span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      2
+                    </span>
+                  </div>
                 </div>
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -210,17 +222,12 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Clients</span>
-                </div>
-                <div className="col-md-3 text-center animate-box">
-                  <span
-                    className="colorlib-counter js-counter"
-                    data-from="0"
-                    data-to="10"
-                    data-speed="5000"
-                    data-refresh-interval="50"
-                  ></span>
-                  <span className="colorlib-counter-label">Partners</span>
+                  <div>
+                    <span className="colorlib-counter-label">Clients</span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      3
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
