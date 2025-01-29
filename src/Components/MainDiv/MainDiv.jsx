@@ -918,28 +918,28 @@ const MainDiv = () => {
               data-animate-effect="fadeInLeft"
             >
               <div className="blog-entry dark:bg-gray-200 dark:text-gray-800">
-                <a href="blog.html" className="blog-img">
+                <a href="https://subup.io/" className="blog-img h-[17rem]">
                   <img
-                    src="images/blog-1.jpg"
-                    className="img-responsive"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
+                    src="images/subup.png"
+                    className="img-responsive h-full object-cover"
+                    alt="subup"
                   />
                 </a>
                 <div className="desc">
                   <span>
-                    <small>April 14, 2018 </small> | <small> Web Design </small>{" "}
-                    |{" "}
+                    <small>React JS</small> | <small> Web Design </small>|
                     <small>
-                      {" "}
                       <i className="icon-bubble3"></i> 4
                     </small>
                   </span>
                   <h3>
-                    <a href="blog.html">Renovating National Gallery</a>
+                    <a href="https://subup.io/">Subup</a>
                   </h3>
                   <p>
-                    Separated they live in Bookmarksgrove right at the coast of
-                    the Semantics, a large language ocean.
+                    Converted Figma designs into modular UI components with
+                    Next.js, TypeScript, and Tailwind CSS. Built a custom
+                    notification system, boosting freelancer response times by
+                    40%.
                   </p>
                 </div>
               </div>
@@ -949,27 +949,30 @@ const MainDiv = () => {
               data-animate-effect="fadeInRight"
             >
               <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a href="blog.html" className="blog-img">
+                <a
+                  href="https://www.throughthelens.com/"
+                  className="blog-img h-[17rem]"
+                >
                   <img
-                    src="images/blog-2.jpg"
-                    className="img-responsive"
+                    src="images/throughthelens.png"
+                    className="img-responsive h-full object-cover"
                     alt="HTML5 Bootstrap Template by colorlib.com"
                   />
                 </a>
                 <div className="desc">
                   <span>
-                    <small>React Js </small> | <small> Web Design </small> |{" "}
+                    <small>React Js </small> | <small> Web Design </small> |
                     <small>
-                      {" "}
                       <i className="icon-bubble3"></i> 4
                     </small>
                   </span>
                   <h3>
-                    <a href="blog.html">Wordpress for a Beginner</a>
+                    <a href="https://www.throughthelens.com/">throughthelens</a>
                   </h3>
                   <p>
-                    Separated they live in Bookmarksgrove right at the coast of
-                    the Semantics, a large language ocean.
+                    Handled dynamic hero sections with looping animations and
+                    trailer switches on hover, ensuring seamless media uploads
+                    while maintaining performance.
                   </p>
                 </div>
               </div>
@@ -979,10 +982,13 @@ const MainDiv = () => {
               data-animate-effect="fadeInLeft"
             >
               <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a href="blog.html" className="blog-img">
+                <a
+                  href="https://www.amenify.com/"
+                  className="blog-img h-[17rem]"
+                >
                   <img
-                    src="images/blog-3.jpg"
-                    className="img-responsive"
+                    src="images/amenify.png"
+                    className="img-responsive h-full object-cover"
                     alt="HTML5 Bootstrap Template by colorlib.com"
                   />
                 </a>
@@ -996,11 +1002,109 @@ const MainDiv = () => {
                     </small>
                   </span>
                   <h3>
-                    <a href="blog.html">Make website from scratch</a>
+                    <a href="https://www.amenify.com/">amenify</a>
                   </h3>
                   <p>
-                    Separated they live in Bookmarksgrove right at the coast of
-                    the Semantics, a large language ocean.
+                    SIntegrated backend API and built user, service provider,
+                    and admin portals to connect residents with in-home
+                    services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-md-4 col-sm-6 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="blog-entry dark:bg-gray-200 dark:text-gray-800">
+                <a
+                  href="http://t-h-e-n-u-t.com/"
+                  className="blog-img h-[17rem]"
+                >
+                  <img
+                    src="images/blog-1.jpg"
+                    className="img-responsive object-cover h-full"
+                    alt="HTML5 Bootstrap Template by colorlib.com"
+                  />
+                </a>
+                <div className="desc">
+                  <span>
+                    <small>React js </small> | <small> Web Design </small>|
+                    <small>
+                      <i className="icon-bubble3"></i> 4
+                    </small>
+                  </span>
+                  <h3>
+                    <a href="http://t-h-e-n-u-t.com/">T-h-e-n-u-t</a>
+                  </h3>
+                  <p>
+                    Worked as Front End Developer. Redesigned the UI and
+                    converted it to React Components.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-sm-6 animate-box"
+              data-animate-effect="fadeInRight"
+            >
+              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
+                <a
+                  href="https://www.incento.kr/"
+                  className="blog-img h-[17rem]"
+                >
+                  <img
+                    src="images/incento.png"
+                    className="img-responsive object-cover h-full"
+                    alt="HTML5 Bootstrap Template by colorlib.com"
+                  />
+                </a>
+                <div className="desc">
+                  <span>
+                    <small>React Js </small> | <small> Web Design </small> |{" "}
+                    <small>
+                      <i className="icon-bubble3"></i> 4
+                    </small>
+                  </span>
+                  <h3>
+                    <a href="https://www.incento.kr/">Incento</a>
+                  </h3>
+                  <p>
+                    Built a CRM dashboard with Next.js and Tailwind CSS,
+                    optimizing UI efficiency and responsiveness for business
+                    needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4 col-sm-6 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
+                <a href="http://mymaker.co.kr/" className="blog-img h-[17rem]">
+                  <img
+                    src="images/blog-3.jpg"
+                    className="img-responsive object-cover h-full"
+                    alt="HTML5 Bootstrap Template by colorlib.com"
+                  />
+                </a>
+                <div className="desc">
+                  <span>
+                    <small>React js </small> |<small> Inspiration </small> |
+                    <small>
+                      <i className="icon-bubble3"></i> 4
+                    </small>
+                  </span>
+                  <h3>
+                    <a href="http://mymaker.co.kr/">mymaker</a>
+                  </h3>
+                  <p>
+                    Built a marketplace for service providers and seekers with
+                    an admin panel for service management. Integrated phone
+                    authentication via KakaoTalk.
                   </p>
                 </div>
               </div>
@@ -1015,7 +1119,8 @@ const MainDiv = () => {
                 <h2>
                   I am happy to know you that 300+ projects done sucessfully!
                 </h2>
-                <a href="#" className="btn-hire">
+
+                <a href="#" className="btn-hire ">
                   Hire me
                 </a>
               </div>

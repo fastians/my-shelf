@@ -556,11 +556,14 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .hire {
-  padding: 2em;
+  padding: 1em;
   background: #f9bf3f;
+  margin-bottom: 50px;
+  
 }
 .hire h2 {
   line-height: 1.5;
+  margin-bottom: 13px;
 }
 .hire .btn-hire {
   color: #000;
