@@ -5,8 +5,12 @@ import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare, FaGitlab } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+import { LuGithub } from "react-icons/lu";
+import { FiGitlab } from "react-icons/fi";
+
 const MainDiv = () => {
   return (
     <div id="colorlib-main" className="dark:bg-black">
@@ -33,54 +37,71 @@ const MainDiv = () => {
               <div className="flex flex-col  items-end justify-center gap-2   font-medium  h-fit">
                 <a
                   href="https://wa.me/+923222243431"
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     WhatsApp
                   </span>
-                  <IoLogoWhatsapp size="30px" color="#25D366" />
+                  <FaWhatsapp
+                    size="30px"
+                    className="text-gray-800 group-hover:text-green-500"
+                  />
                 </a>
+
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-orange-500"
                   target="_blank"
                   href="https://mail.google.com/"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500">
                     E-Mail
                   </span>
-                  <MdEmail size="30px" color="gray" />
+                  <IoMailOutline
+                    size="30px"
+                    className="text-gray-800 group-hover:text-orange-500"
+                  />
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-blue-500"
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b  border-black">
-                    Linkedin
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-blue-500">
+                    LinkedIn
                   </span>
-                  <FaLinkedin size="30px" color="#0077B5" />
+                  <CiLinkedin
+                    size="30px"
+                    className="text-gray-800 group-hover:text-blue-500"
+                  />
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b  border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     GitHub
                   </span>
-                  <FaGithubSquare size="30px" />
+                  <LuGithub
+                    size="30px"
+                    className="text-gray-800 group-hover:text-green-500"
+                  />
                 </a>
+
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-black">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
                     GitLab
                   </span>
-                  <FaGitlab size="30px" color="#F96826" />
+                  <FiGitlab
+                    size="30px"
+                    className="text-gray-800 group-hover:text-[#F96826]"
+                  />
                 </a>
               </div>
             </li>
