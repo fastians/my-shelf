@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import MainDiv from "../MainDiv/MainDiv";
 import ThemeChanger from "../ThemeChanger/ThemeChanger";
 
@@ -89,83 +89,84 @@ const Sidebar = () => {
         <aside
           id="colorlib-aside"
           role="complementary"
-          className="border h-full dark:bg-black bg-[#f2f3f7]"
+          className="border h-full flex flex-col justify-between dark:bg-black bg-[#f2f3f7]"
         >
-          <div className="text-center">
-            <div
-              className="author-img"
-              style={{ backgroundImage: `url("images/about.jpg")` }}
-            ></div>
-            <h1 id="colorlib-logo" className="dark:text-white text-black">
-              <a href="index.html">Abdul Mateen</a>
-            </h1>
-            <span className="position">
-              Frontend Developer
-            </span>
-          </div>
-          <nav id="colorlib-main-menu" role="navigation" className="navbar">
-            <div
-              id="navbar"
-              // className="collapse"
-            >
-              <ul>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "home" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("home")}
-                >
-                  Home
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "about" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("about")}
-                >
-                  About
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "services" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("services")}
-                >
-                  Services
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "skills" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("skills")}
-                >
-                  Skills
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "education" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("education")}
-                >
-                  Education
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "experience" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("experience")}
-                >
-                  Experience
-                </li>
-                <li
-                  className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
-                    activeSection === "work" && "text-[#2c98f0] underline"
-                  }`}
-                  onClick={() => scrollToSection("work")}
-                >
-                  Work
-                </li>
-                {/* <li
+          <div>
+            <div className="text-center">
+              <div
+                className="author-img"
+                style={{ backgroundImage: `url("images/about.jpg")` }}
+              ></div>
+              <h1 id="colorlib-logo" className="dark:text-white text-black">
+                <a href="index.html">Abdul Mateen</a>
+              </h1>
+              <span className="position">Frontend Developer</span>
+            </div>
+            <nav id="colorlib-main-menu" role="navigation" className="navbar">
+              <div
+                id="navbar"
+                // className="collapse"
+              >
+                <ul>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "home" && "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("home")}
+                  >
+                    Home
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "about" && "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("about")}
+                  >
+                    About
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "services" && "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("services")}
+                  >
+                    Services
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "skills" && "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("skills")}
+                  >
+                    Skills
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "education" &&
+                      "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("education")}
+                  >
+                    Education
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "experience" &&
+                      "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("experience")}
+                  >
+                    Experience
+                  </li>
+                  <li
+                    className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
+                      activeSection === "work" && "text-[#2c98f0] underline"
+                    }`}
+                    onClick={() => scrollToSection("work")}
+                  >
+                    Work
+                  </li>
+                  {/* <li
                   className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
                     activeSection === "blog" && "text-[#2c98f0] underline"
                   }`}
@@ -173,7 +174,7 @@ const Sidebar = () => {
                 >
                   Blog
                 </li> */}
-                {/* <li
+                  {/* <li
                   className={`cursor-pointer hover:underline hover:text-[#2c98f0] transition-all duration-300 ${
                     activeSection === "contact" && "text-[#2c98f0] underline"
                   }`}
@@ -181,10 +182,11 @@ const Sidebar = () => {
                 >
                   Contact
                 </li> */}
-              </ul>
-            </div>
-          </nav>
-          <div className="flex justify-center items-center">
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div className="flex justify-center items-center ">
             <ThemeChanger />
           </div>
         </aside>

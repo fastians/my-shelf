@@ -6,14 +6,15 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare, FaGitlab } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 const MainDiv = () => {
   return (
     <div id="colorlib-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
         <div className="flexslider h-full">
           <ul className="">
-            <li className="relative h-[100vh] flex  justify-center px-20">
-              <div className=" flex flex-col gap-6  justify-center w-full">
+            <li className="relative h-[100vh] flex items-center justify-between px-20 ">
+              <div className=" flex flex-col gap-6  justify-center   h-fit">
                 <h1 className="sm:text-7xl text-3xl font-bold ">
                   Hi! <br className="my-4" />
                   I'm Jackson
@@ -29,47 +30,57 @@ const MainDiv = () => {
                   </a>
                 </p>
               </div>
-              <div className="flex flex-col  items-center justify-center gap-2 px-4  font-medium w-full">
+              <div className="flex flex-col  items-end justify-center gap-2   font-medium  h-fit">
                 <a
                   href="https://wa.me/+923222243431"
-                  className="btn-learn flex items-center justify-between !py-2 gap-2 w-60"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                 >
-                  WhatsApp
-                  <IoLogoWhatsapp size="30px" />
+                  <span className="group-hover:border-b  border-black">
+                    WhatsApp
+                  </span>
+                  <IoLogoWhatsapp size="30px" color="#25D366" />
                 </a>
                 <a
-                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   target="_blank"
                   href="https://mail.google.com/"
                 >
-                  E-Mail
-                  <MdEmail size="30px" />
+                  <span className="group-hover:border-b  border-black">
+                    E-Mail
+                  </span>
+                  <MdEmail size="30px" color="gray" />
                 </a>
 
                 <a
-                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  Linkedin
-                  <FaLinkedin size="30px" />
+                  <span className="group-hover:border-b  border-black">
+                    Linkedin
+                  </span>
+                  <FaLinkedin size="30px" color="#0077B5" />
                 </a>
 
                 <a
-                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
-                  GitHub
+                  <span className="group-hover:border-b  border-black">
+                    GitHub
+                  </span>
                   <FaGithubSquare size="30px" />
                 </a>
                 <a
-                  className="btn-learn flex items-center !py-2 gap-2 w-60 justify-between"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  GitLab
-                  <FaGitlab size="30px" />
+                  <span className="group-hover:border-b border-black">
+                    GitLab
+                  </span>
+                  <FaGitlab size="30px" color="#F96826" />
                 </a>
               </div>
             </li>
@@ -77,7 +88,7 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-about" id="about">
+      <section className="colorlib-about " id="about">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-12">
