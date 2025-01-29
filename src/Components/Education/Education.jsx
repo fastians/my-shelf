@@ -56,8 +56,6 @@ const Education = () => {
                     aria-labelledby="headingOne"
                   >
                     <div className="panel-body">
-                      <div className="row">
-                        <div className="col-md-6">
                           <p className="dark:text-gray-800">
                             I developed an in-depth understanding of project
                             management principles, software development life
@@ -67,14 +65,6 @@ const Education = () => {
                             time and within budget
                           </p>
                         </div>
-                        <div className="col-md-6">
-                          <p className="dark:text-gray-800">
-                            Separated they live in Bookmarksgrove right at the
-                            coast of the Semantics, a large language ocean.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="panel panel-default">
@@ -107,14 +97,6 @@ const Education = () => {
                         My studies emphasized problem-solving, optimization, and
                         efficient coding practices.
                       </p>
-                      <ul type="circle">
-                        <li className="dark:text-gray-800">
-                          Separated they live in Bookmarksgrove right
-                        </li>
-                        <li className="dark:text-gray-800">
-                          Separated they live in Bookmarksgrove right
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>

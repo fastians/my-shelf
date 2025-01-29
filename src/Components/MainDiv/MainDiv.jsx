@@ -73,30 +73,30 @@ const MainDiv = () => {
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-yellow-500"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-yellow-500">
                     GitHub
                   </span>
                   <LuGithub
                     size="30px"
-                    className="text-gray-800 group-hover:text-green-500"
+                    className="text-gray-800 group-hover:text-yellow-500"
                   />
                 </a>
 
                 <a
-                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-green-500"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group text-gray-800 hover:text-orange-500"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  <span className="group-hover:border-b border-gray-800 group-hover:border-green-500">
+                  <span className="group-hover:border-b border-gray-800 group-hover:border-orange-500">
                     GitLab
                   </span>
                   <FiGitlab
                     size="30px"
-                    className="text-gray-800 group-hover:text-[#F96826]"
+                    className="text-gray-800 group-hover:text-orange-500"
                   />
                 </a>
               </div>
@@ -530,10 +530,13 @@ const MainDiv = () => {
 
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
+                        <a href="#">Mega Labs</a>{" "}
+                        <span>Feb 2023 – Present</span>
                         <a href="#">Full Stack Developer</a>{" "}
                         <span className="float-end">2017-2018</span>
                       </h2>
-                      <p className="mt-2">
+                      <h3>Full Stack Engineer</h3>
+                      <p>
                         Tolerably earnestly middleton extremely distrusts she
                         boy now not. Add and offered prepare how cordial two
                         promise. Greatly who affixed suppose but enquire compact
@@ -557,7 +560,8 @@ const MainDiv = () => {
                         <a href="#">Front End Developer at Google Company</a>{" "}
                         <span className="float-end">2017-2018</span>
                       </h2>
-                      <p className="mt-2">
+                      <h3>Full Stack Developer</h3>
+                      <p>
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -578,7 +582,7 @@ const MainDiv = () => {
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
                         <a href="#">Freelance Development</a>{" "}
-                        <span className="float-end">June 2020 - July 2022</span>
+                        <span>Jun 2020 - Jul 2022</span>
                       </h2>
                       <h3>Full Stack Developer</h3>
                       <p className="mt-2">
@@ -604,7 +608,7 @@ const MainDiv = () => {
                         <a href="https://www.rolustech.com" target="_blank">
                           Rolustech
                         </a>
-                        <span className="float-end">June 2013 – May 2020</span>
+                        <span>Jun 2013 – May 2020</span>
                       </h2>
                       <h3>Software Engineer</h3>
                       <p className="mt-2">
