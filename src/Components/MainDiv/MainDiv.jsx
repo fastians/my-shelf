@@ -5,17 +5,19 @@ import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare, FaGitlab } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 const MainDiv = () => {
   return (
     <div id="colorlib-main" className="dark:bg-black">
       <section id="home" className="h-full dark:bg-black" data-section="home">
         <div className="flexslider h-full">
           <ul className="">
-            <li className="relative h-[100vh] flex  justify-center px-20">
-              <div className=" flex flex-col gap-6  justify-center">
+            <li className="relative h-[100vh] flex items-center justify-between px-20 ">
+              <div className=" flex flex-col gap-6  justify-center   h-fit">
                 <h1 className="sm:text-7xl text-3xl font-bold ">
                   Hi! <br className="my-4" />
-                  I'm Jackson
+                  I'm Abdul
                 </h1>
                 <h2 className="leading-relaxed sm:text-2xl text-lg w-3/4 my-4">
                   Building Scalable Solutions,
@@ -28,46 +30,57 @@ const MainDiv = () => {
                   </a>
                 </p>
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
+              <div className="flex flex-col  items-end justify-center gap-2   font-medium  h-fit">
                 <a
                   href="https://wa.me/+923222243431"
-                  className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2  outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition text-2xl hover:text-white"
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                 >
-                  Contact me
-                  <IoLogoWhatsapp
-                    className="opacity-70 group-hover:translate-x-1 transition"
-                    size="30px"
-                  />
+                  <span className="group-hover:border-b  border-black">
+                    WhatsApp
+                  </span>
+                  <IoLogoWhatsapp size="30px" color="#25D366" />
                 </a>
                 <a
-                  className="bg-gray-200 p-4 ml-2 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   target="_blank"
                   href="https://mail.google.com/"
                 >
-                  <MdEmail size="30px" />
+                  <span className="group-hover:border-b  border-black">
+                    E-Mail
+                  </span>
+                  <MdEmail size="30px" color="gray" />
                 </a>
 
                 <a
-                  className="bg-gray-200  p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://www.linkedin.com/in/abdul-mateen-374562333/"
                   target="_blank"
                 >
-                  <BsLinkedin size="30px" />
+                  <span className="group-hover:border-b  border-black">
+                    Linkedin
+                  </span>
+                  <FaLinkedin size="30px" color="#0077B5" />
                 </a>
 
                 <a
-                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://github.com/abdulnextdev"
                   target="_blank"
                 >
+                  <span className="group-hover:border-b  border-black">
+                    GitHub
+                  </span>
                   <FaGithubSquare size="30px" />
                 </a>
                 <a
-                  className="bg-gray-200 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack "
+                  className="btn-icons flex items-center justify-end !py-2 gap-3 w-60 group"
                   href="https://gitlab.com/abdulnextdev"
                   target="_blank"
                 >
-                  <FaGitlab size="30px" />
+                  <span className="group-hover:border-b border-black">
+                    GitLab
+                  </span>
+                  <FaGitlab size="30px" color="#F96826" />
                 </a>
               </div>
             </li>
@@ -75,7 +88,7 @@ const MainDiv = () => {
         </div>
       </section>
 
-      <section className="colorlib-about" id="about">
+      <section className="colorlib-about " id="about">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div className="col-md-12">
@@ -169,7 +182,7 @@ const MainDiv = () => {
             <div className="colorlib-narrow-content ">
               <div className="row"></div>
               <div className="row">
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -177,9 +190,16 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Cups of coffee</span>
+                  <div>
+                    <span className="colorlib-counter-label">
+                      Cups of coffee
+                    </span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      1
+                    </span>
+                  </div>
                 </div>
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -187,9 +207,14 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Projects</span>
+                  <div>
+                    <span className="colorlib-counter-label">Projects</span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      2
+                    </span>
+                  </div>
                 </div>
-                <div className="col-md-3 text-center animate-box">
+                <div className="col-md-4 text-center animate-box">
                   <span
                     className="colorlib-counter js-counter"
                     data-from="0"
@@ -197,17 +222,12 @@ const MainDiv = () => {
                     data-speed="5000"
                     data-refresh-interval="50"
                   ></span>
-                  <span className="colorlib-counter-label">Clients</span>
-                </div>
-                <div className="col-md-3 text-center animate-box">
-                  <span
-                    className="colorlib-counter js-counter"
-                    data-from="0"
-                    data-to="10"
-                    data-speed="5000"
-                    data-refresh-interval="50"
-                  ></span>
-                  <span className="colorlib-counter-label">Partners</span>
+                  <div>
+                    <span className="colorlib-counter-label">Clients</span>
+                    <span className="text-5xl text-[#ffffff] opacity-70">
+                      3
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>

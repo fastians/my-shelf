@@ -24,3 +24,14 @@
   background: #000 !important;
   color: white;
 }
+
+.btn-icons {
+  color: #000;
+  background: transparent !important;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn-icons:hover {
+  color: black;
+}
