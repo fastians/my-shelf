@@ -5,6 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { LuGithub } from "react-icons/lu";
 import { FiGitlab } from "react-icons/fi";
+import { Card } from "../Card/Card";
 
 const MainDiv = () => {
   return (
@@ -530,9 +531,9 @@ const MainDiv = () => {
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
                         <a href="#">Full Stack Developer</a>{" "}
-                        <span>2017-2018</span>
+                        <span className="float-end">2017-2018</span>
                       </h2>
-                      <p>
+                      <p className="mt-2">
                         Tolerably earnestly middleton extremely distrusts she
                         boy now not. Add and offered prepare how cordial two
                         promise. Greatly who affixed suppose but enquire compact
@@ -554,9 +555,9 @@ const MainDiv = () => {
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
                         <a href="#">Front End Developer at Google Company</a>{" "}
-                        <span>2017-2018</span>
+                        <span className="float-end">2017-2018</span>
                       </h2>
-                      <p>
+                      <p className="mt-2">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -577,10 +578,10 @@ const MainDiv = () => {
                     <div className="timeline-label bg-[#f2f3f7] dark:bg-gray-200">
                       <h2>
                         <a href="#">Freelance Development</a>{" "}
-                        <span>June 2020 - July 2022</span>
+                        <span className="float-end">June 2020 - July 2022</span>
                       </h2>
                       <h3>Full Stack Developer</h3>
-                      <p>
+                      <p className="mt-2">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -603,10 +604,10 @@ const MainDiv = () => {
                         <a href="https://www.rolustech.com" target="_blank">
                           Rolustech
                         </a>
-                        <span>June 2013 – May 2020</span>
+                        <span className="float-end">June 2013 – May 2020</span>
                       </h2>
                       <h3>Software Engineer</h3>
-                      <p>
+                      <p className="mt-2">
                         Even the all-powerful Pointing has no control about the
                         blind texts it is an almost unorthographic life One day
                         however a small line of blind text by the name of Lorem
@@ -640,202 +641,62 @@ const MainDiv = () => {
             </div>
           </div>
           <div className="row">
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div className="blog-entry dark:bg-gray-200 dark:text-gray-800">
-                <a href="https://subup.io/" className="blog-img h-[17rem]">
-                  <img
-                    src="images/subup.png"
-                    className="img-responsive h-full object-cover"
-                    alt="subup"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>React JS</small> | <small> Web Design </small>|
-                    <small>
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="https://subup.io/">Subup</a>
-                  </h3>
-                  <p>
-                    Converted Figma designs into modular UI components with
+            <Card
+              title="Subup"
+              link="https://subup.io/"
+              image="images/subup.png"
+              description=" Converted Figma designs into modular UI components with
                     Next.js, TypeScript, and Tailwind CSS. Built a custom
                     notification system, boosting freelancer response times by
-                    40%.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a
-                  href="https://www.throughthelens.com/"
-                  className="blog-img h-[17rem]"
-                >
-                  <img
-                    src="images/throughthelens.png"
-                    className="img-responsive h-full object-cover"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>React Js </small> | <small> Web Design </small> |
-                    <small>
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="https://www.throughthelens.com/">throughthelens</a>
-                  </h3>
-                  <p>
-                    Handled dynamic hero sections with looping animations and
+                    40%."
+              tags={["React Js", "Web Design", "4"]}
+            />
+            <Card
+              title="throughthelens"
+              link="https://www.throughthelens.com/"
+              image="images/throughthelens.png"
+              description="Handled dynamic hero sections with looping animations and
                     trailer switches on hover, ensuring seamless media uploads
-                    while maintaining performance.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a
-                  href="https://www.amenify.com/"
-                  className="blog-img h-[17rem]"
-                >
-                  <img
-                    src="images/amenify.png"
-                    className="img-responsive h-full object-cover"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>April 14, 2018 </small> |{" "}
-                    <small> Inspiration </small> |{" "}
-                    <small>
-                      {" "}
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="https://www.amenify.com/">amenify</a>
-                  </h3>
-                  <p>
-                    SIntegrated backend API and built user, service provider,
+                    while maintaining performance."
+              tags={["React Js", "Web Design", "4"]}
+            />
+            <Card
+              title="amenify"
+              link="https://www.amenify.com/"
+              image="images/amenify.png"
+              description="SIntegrated backend API and built user, service provider,
                     and admin portals to connect residents with in-home
-                    services.
-                  </p>
-                </div>
-              </div>
-            </div>
+                    services."
+              tags={["React Js", "Web Design", "4"]}
+            />
           </div>
           <div className="row">
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div className="blog-entry dark:bg-gray-200 dark:text-gray-800">
-                <a
-                  href="http://t-h-e-n-u-t.com/"
-                  className="blog-img h-[17rem]"
-                >
-                  <img
-                    src="images/blog-1.jpg"
-                    className="img-responsive object-cover h-full"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>React js </small> | <small> Web Design </small>|
-                    <small>
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="http://t-h-e-n-u-t.com/">T-h-e-n-u-t</a>
-                  </h3>
-                  <p>
-                    Worked as Front End Developer. Redesigned the UI and
-                    converted it to React Components.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInRight"
-            >
-              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a
-                  href="https://www.incento.kr/"
-                  className="blog-img h-[17rem]"
-                >
-                  <img
-                    src="images/incento.png"
-                    className="img-responsive object-cover h-full"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>React Js </small> | <small> Web Design </small> |{" "}
-                    <small>
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="https://www.incento.kr/">Incento</a>
-                  </h3>
-                  <p>
-                    Built a CRM dashboard with Next.js and Tailwind CSS,
+            <Card
+              title="T-h-e-n-u-t"
+              link="http://t-h-e-n-u-t.com/"
+              image="images/blog-1.jpg"
+              description="Worked as Front End Developer. Redesigned the UI and
+                    converted it to React Components."
+              tags={["React Js", "Web Design", "4"]}
+            />
+            <Card
+              title="Incento"
+              link="https://www.incento.kr/"
+              image="images/incento.png"
+              description=" Built a CRM dashboard with Next.js and Tailwind CSS,
                     optimizing UI efficiency and responsiveness for business
-                    needs.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-md-4 col-sm-6 animate-box"
-              data-animate-effect="fadeInLeft"
-            >
-              <div className="blog-entry  dark:bg-gray-200 dark:text-gray-800">
-                <a href="http://mymaker.co.kr/" className="blog-img h-[17rem]">
-                  <img
-                    src="images/blog-3.jpg"
-                    className="img-responsive object-cover h-full"
-                    alt="HTML5 Bootstrap Template by colorlib.com"
-                  />
-                </a>
-                <div className="desc">
-                  <span>
-                    <small>React js </small> |<small> Inspiration </small> |
-                    <small>
-                      <i className="icon-bubble3"></i> 4
-                    </small>
-                  </span>
-                  <h3>
-                    <a href="http://mymaker.co.kr/">mymaker</a>
-                  </h3>
-                  <p>
-                    Built a marketplace for service providers and seekers with
+                    needs."
+              tags={["React Js", "Web Design", "4"]}
+            />
+            <Card
+              title="mymaker"
+              link="http://mymaker.co.kr/"
+              image="images/blog-3.jpg"
+              description="Built a marketplace for service providers and seekers with
                     an admin panel for service management. Integrated phone
-                    authentication via KakaoTalk.
-                  </p>
-                </div>
-              </div>
-            </div>
+                    authentication via KakaoTalk."
+              tags={["React Js", "Inspiration", "4"]}
+            />
           </div>
           <div className="row">
             <div
