@@ -33,12 +33,12 @@ const Education = () => {
                 aria-multiselectable="true"
               >
                 <div className="panel panel-default">
-                  <div className="panel-heading " role="tab" id="headingOne">
-                    <h4 className="panel-title ">
+                  <div className="panel-heading" role="tab" id="headingOne">
+                    <h4 className="panel-title  ">
                       <a
                         onClick={() => togglePanel("collapseOne")}
                         aria-expanded={openPanel === "collapseOne"}
-                        className={`${
+                        className={`dark:bg-gray-400 dark:!text-black ${
                           openPanel === "collapseOne" || "collapsed"
                         }`}
                       >
@@ -71,7 +71,7 @@ const Education = () => {
                   <div className="panel-heading" role="tab" id="headingTwo">
                     <h4 className="panel-title">
                       <a
-                        className={`${
+                        className={`dark:bg-gray-400 dark:!text-black ${
                           openPanel === "collapseTwo" || "collapsed"
                         }`}
                         onClick={() => togglePanel("collapseTwo")}
@@ -104,7 +104,7 @@ const Education = () => {
                   <div className="panel-heading" role="tab" id="headingThree">
                     <h4 className="panel-title">
                       <a
-                        className={`${
+                        className={`dark:bg-gray-400 dark:!text-black ${
                           openPanel === "collapseThree" || "collapsed"
                         }`}
                         onClick={() => togglePanel("collapseThree")}
